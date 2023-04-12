@@ -1,0 +1,117 @@
+:root {
+    --color-white: #ffffff;
+    --color-ocean: #404bbf;
+    --color-background: #ffffff;
+    --color-iris: #4d5ae5;
+    --color-background-btn: #404bbf;
+    --color-background-main: #2e2f42;
+    --color-main: #434455;
+    --color-cloud: #f4f4fd;
+    --color-costumers: #8E8F99;
+    --color-iconfooter: #31D0AA;
+    --color-text: #c68d08;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-main);
+    background-color: var(--color-white);
+}
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+address {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.conteiner {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*-------------------HEADER-----------------------------*/
+.header {
+    position: relative;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80px; 
+    padding: 20px;
+}
+.header-conteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-ul {
+    flex-direction: row;
+    display: flex;
+}
+.a-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address {
+    margin-left: auto; 
+    flex-direction: row;
+    display: flex; 
+}
+.a-link:hover,
+.a-link:focus {
+    color: var(--color-iconfooter);
+}
+
+/*-------------------MAIN-----------------------------*/
+.menu {
+    margin-top: 100px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.menu-item {
+    outline: 2px solid turquoise;
+}
+.menu-link {
+    color: #c68d08;
+    padding: 10px 20px;
+    display: block;
+    background-color: #4d5ae5;
+}
+.menu-item:hover .sub-menu,
+.menu-item:focus .sub-menu {
+    display: block;
+}
+.sub-menu {
+    padding: 10px;
+    list-style: none;
+    background-color: #ccc;
+    display: none;
+}
