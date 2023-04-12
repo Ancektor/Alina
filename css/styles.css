@@ -63,11 +63,13 @@ img {
     background-repeat: no-repeat;
     height: 80px; 
     padding: 20px;
+    border: 0px;
 }
 .header-conteiner {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 .header-ul {
     flex-direction: row;
@@ -100,7 +102,8 @@ img {
     list-style: none;
     display: flex;
     gap: 50px;
-    
+    border: 0px;
+    margin: 0px;
 }
 .menu-item {
     outline: 2px solid turquoise;
