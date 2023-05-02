@@ -47,7 +47,7 @@ img {
 }
 
 .conteiner {
-    width: 800px;
+    width: 420px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -64,12 +64,13 @@ img {
     height: 80px; 
     padding: 20px;
     border: 0px;
+    width: 420px;
+   
 }
 .header-conteiner {
-    display: flex;
+     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    align-items: center;    
 }
 .header-ul {
     flex-direction: row;

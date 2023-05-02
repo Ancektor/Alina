@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+    .conteiner {
+        width: 768px;
+    }
+    .header {
+        padding:20px 32px 0px;
+    }
+    .header-conteiner-mob {
+        display: none;
+    }
+    .header-conteiner {
+        display: flex;
+    }
+    .logo_text {
+        font-size: 12px;
+        line-height: 1,0;
+    }
+    .header_list {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin-left: 80px;
+    }
+    .header-text {
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+    }
+    .btn_header {
+        width: 159px;
+        height: 48px;
+        background: #1E2827;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 1.33;
+        color: #FFFFFF;
+        border: 0px;
+        border-radius: 8px;
+        margin-left: auto;
+    }
+}
