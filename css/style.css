@@ -98,4 +98,9 @@ img {
     align-items: center;
     justify-content: center;
 }
-
+.header_tel {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.33;
+    color: #FFFFFF;
+}
