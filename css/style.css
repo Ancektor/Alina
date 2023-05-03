@@ -53,10 +53,9 @@ img {
     flex-direction: row;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
-.logo_heeader {
+.logo_header {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -91,7 +90,6 @@ img {
     background-color: #141414;
     border: 0px;
 }
-
 .svg_menu {
     fill: #ffffff;
     display: flex;
