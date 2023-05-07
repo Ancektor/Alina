@@ -104,12 +104,13 @@ img {
     border: 0px;
     margin-left: 0;
     margin-top: 0;
-    padding-top: 50px;
+    padding-top: 350px;
     padding-left: 0;
-
+    border-radius: 10px;
 }
 .menu-item {
     outline: 2px solid turquoise;
+    border-radius: 10px;
 }
 .menu-link {
     color: #c68d08;
@@ -119,6 +120,7 @@ img {
     margin-top: 20px;
     padding: 10px;
     background-color: #4d5ae5;
+    border-radius: 10px;
 }
 .menu-item:hover .sub-menu,
 .menu-item:focus .sub-menu {
@@ -131,6 +133,9 @@ img {
     margin-left: 0;
 }
 .main {
-    background-color: #ccc;
-    height: 800px;
+    background-image: url(/images/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
 }
