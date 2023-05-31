@@ -139,3 +139,18 @@ img {
     background-repeat: no-repeat;
     height: 600px;
 }
+.back-to-top {
+    background: #4b4c50;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    padding: 1px 2px;
+    right: 20px;    
+    cursor: pointer;
+    transition: 0.3s all;
+    fill: #ffffff;
+}
+.back-to-top.active {
+    bottom: 50px;
+    transition: 0.3s all;
+}
